@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2">
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        android:paddingTop="10dp"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        >
+
+        <ImageButton
+            android:id="@+id/btn3"
+            android:layout_width="53dp"
+            android:layout_height="53dp"
+            android:layout_gravity="left"
+            android:background="@drawable/home"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="120dp"
+
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="10sp"
+            android:background="#263CAE"
+            android:gravity="center"
+            android:text="1. 검토회의 전에 요구사항 명세서를 미리 배포하여 사전 검토한 후 짧은 검토 회의를 통해 오류를\n 조기에 검출하는데 목적을 두는 요구 사항 검토 \n방법은?"
+            android:textColor="@color/white"
+            android:textSize="18dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            android:gravity="center"
+            tools:ignore="Suspicious0dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="2dp"
+                android:textSize="15dp"
+                android:text="① 빌드 검증"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+
+                android:text="② 동료 검토"
+                android:padding="2dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+
+                android:text="③ 워크 스루"
+                android:textColor="#FF0000"
+                android:padding="2dp"
+
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+
+                android:text="④ 개발자 검토"
+                android:padding="2dp"
+
+                />
+
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="421dp"
+            android:layout_height="wrap_content"
+            android:background="#565756"
+            android:text="해 설"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:paddingTop="20dp"
+            android:textColor="#2C2C2C"
+            android:background="#E6E6E6"
+            android:text=" 요구사항 검토 방법 \n\n 동료 검토 : 작성자가 명세서 내용 설명 동료들이 결함 발견하는 형태
+                 \n 워크 스루 : 검토 회의 전 명세서를 미리 배포하여 사전 검토 후 짧은 검토 회의를 통해 오류 조기 검출
+                    \n 인스펙션: 명세서 작성자를 제외한 다른 검토 전문가들이 확인하면서 결함을 발견하는 형태\n"
+            android:textSize="17dp"
+            android:textStyle="bold"
+
+            />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+
+            >
+
+
+            <ImageButton
+                android:id="@+id/next_btn"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+
+                android:background="@drawable/next" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="30dp"
+
+            >
+
+            <Button
+                android:id="@+id/Q_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="3dp"
+                android:drawableLeft="@drawable/q"
+                android:drawablePadding="5dp"
+                android:gravity="center"
+                android:text="질문게시판으로 이동"
+                android:textColor="#C31111"
+                android:textSize="17dp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>

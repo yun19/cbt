@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2">
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        android:paddingTop="10dp"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        >
+
+        <ImageButton
+            android:id="@+id/btn2"
+            android:layout_width="53dp"
+            android:layout_height="53dp"
+            android:layout_gravity="left"
+            android:background="@drawable/home" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="120dp"
+
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="10sp"
+            android:background="#263CAE"
+            android:gravity="center"
+            android:text="2. 코드 설계에서 일정한 일련번호를 부여하는 방식의 코드는?"
+            android:textColor="@color/white"
+            android:textSize="18dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            android:gravity="center"
+            tools:ignore="Suspicious0dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="2dp"
+                android:textSize="15dp"
+                android:text="① 연상 코드"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+
+                android:text="② 블록 코드"
+                android:padding="2dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+
+                android:text="③ 순차 코드"
+                android:textColor="#FF0000"
+                android:padding="2dp"
+
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+
+                android:text="④ 표의 숫자 코드"
+                android:padding="2dp"
+
+                />
+
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="421dp"
+            android:layout_height="wrap_content"
+            android:background="#565756"
+            android:text="해 설"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:paddingTop="20dp"
+            android:textColor="#2C2C2C"
+            android:background="#E6E6E6"
+            android:text="1. 연상 코드: 항목의 명칭이나 약호와 관계 있는 숫자, \n문자, 기호를 이용하여 코드를 부여하는 방법
+                 2. 블록 코드: 대상 항목에서 공통적인 것을 블록으로 \n구분하고 블록 내에 일련 번호를 부여하는 방법
+                 3. 순차 코드: 일정 기준에 따라 최초의 자료부터 일련번호를 부여하는 방법
+                 \n4. 표의 숫자 코드: 길이 넓이 부피 등 항목의 성질의 물리적인 수치를 그대로 코드에 적용시키는 방법\n"
+            android:textSize="17dp"
+            android:textStyle="bold"
+
+            />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+
+            >
+
+            <ImageButton
+                android:id="@+id/back_btn1"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+
+                android:background="@drawable/back" />
+
+            <ImageButton
+                android:id="@+id/next_btn"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+
+                android:background="@drawable/next" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="30dp"
+
+            >
+
+            <Button
+                android:id="@+id/Q_btn1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="3dp"
+                android:drawableLeft="@drawable/q"
+                android:drawablePadding="5dp"
+                android:gravity="center"
+                android:text="질문게시판으로 이동"
+                android:textColor="#C31111"
+                android:textSize="17dp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>
